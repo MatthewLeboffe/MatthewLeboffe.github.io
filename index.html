@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Matthew Leboffe">
+	<meta name="description" content="Basic informative website about dinosaurs.">
+
+	<title>DinoWiki</title>
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto&display=swap');
+  </style>
+  
+</head>
+
+
+<body>
+  <header class="header">
+    <h1>DinoWiki</h1>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="trex.html">Tyrannosaurus Rex</a></li>
+      <li><a href="tri.html">Triceratops</a></li>
+      <li><a href="vel.html">Velociraptor</a></li>
+      <li><a href="pte.html">Pterodactyl</a></li>
+      <li><a href="spin.html">Spinosaurus</a></li>
+      <li><a href="stego.html">Stegosaurus</a></li>
+    </ul>
+  </header>
+
+  <div id="welcomeinfo">
+    <div id="instructions">
+      <h2>Click on a dinosaur to learn more!</h2>
+    </div>
+    
+    <div id= "DinoPics">
+      <div class="DinoTab">
+        <h2>Tyrannosaurus</h2>
+        <a href="trex.html"><img class="welcomePics" src="images/trex.jpg" alt="A t-rex"></a>
+      </div>
+      <div class="DinoTab">
+        <h2>Triceratops</h2>
+        <a href="tri.html"><img class="welcomePics" src="images/tri.jpg" alt="A Triceratops"></a>
+      </div>
+      <div class="DinoTab">
+        <h2>Velociraptor</h2>
+        <a href="vel.html"><img class="welcomePics" src="images/velo.jpg" alt="A Velociraptor"></a>
+      </div>
+      <div class="DinoTab">
+        <h2>Pterodactyl</h2>
+        <a href="pte.html"><img class="welcomePics" src="images/ptero.jpg" alt="A Pterodactyl"></a>
+      </div>
+      <div class="DinoTab">
+        <h2>Spinosaurus</h2>
+        <a href="spin.html"><img class="welcomePics" src="images/spin.jpg" alt="A Spinosaurus"></a>
+      </div>
+      <div class="DinoTab">
+        <h2>Stegosaurus</h2>
+        <a href="stego.html"><img class="welcomePics" src="images/stego.png" alt="A Stegosaurus"></a>
+      </div>
+    </div>
+
+  </div>
+</body>
+
